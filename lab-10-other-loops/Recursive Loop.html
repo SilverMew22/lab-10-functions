@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var recurse = 1; // initialization
+function myrecursion() {
+    if (recurse > 20) return; // terminating condition
+    console.log("Look I'm recursing for " + recurse + " times!");
+    recurse = recurse + 1; // how to increment
+    myrecursion(); // Our recursion: a function that calls itself !
+}
+myrecursion(); // function call (Remember, this is where we actually run the function.)
+    </script>
+  </body>
+</html>
