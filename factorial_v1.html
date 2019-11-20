@@ -12,7 +12,9 @@ var total = 1;
   for(i=0;i<n;i=i+1){
   total=total*(n-i);
   console.log("the current value of i is " + i);
+  document.write("the current value of i is " + i + "<br>");
   console.log("the current value of total is " + total);
+  document.write("the current value of i is " + i + "<br>");
   //the first value is 1
   //then minus 1 from the value
   }
@@ -21,6 +23,7 @@ var total = 1;
 var userstring = prompt("Number please");
 var usernum = parseInt(userstring);
 console.log(usernum + " ! is " + factorial(usernum));
+document.write(usernum + " ! is " + factorial(usernum));
     </script>
   </body>
 </html>

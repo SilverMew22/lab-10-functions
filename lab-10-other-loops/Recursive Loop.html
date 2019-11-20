@@ -10,6 +10,7 @@
 function myrecursion() {
     if (recurse > 20) return; // terminating condition
     console.log("Look I'm recursing for " + recurse + " times!");
+    document.write("Look I'm recursing for " + recurse + " times!" + "<br>");
     recurse = recurse + 1; // how to increment
     myrecursion(); // Our recursion: a function that calls itself !
 }

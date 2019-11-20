@@ -6,15 +6,8 @@
   </head>
   <body>
     <script >
-
-    var tree = prompt("Number please");
-    var trees = parseInt(tree);
-
-    function trees(tree){
-    //the user will enable the fucntion from a prompt
-    //var total = 1;
-      for(i=tree; i>=1 ;i--){
-      //total=total*(n-i);
+    function treesMade(tree){
+    for (i = tree; i >= 1; i--) {
       console.log("    /\\");
       console.log("   /  \\");
       console.log("   /  \\");
@@ -22,13 +15,10 @@
       console.log(" /      \\");
       console.log("    ||");
       console.log("    ||");
-      //console.log("the current value of total is " + total);
-      //the first value is 1
-      //then minus 1 from the value
-      //he helped me
-      //https://github.com/arashizadi/lab-10-functions
-      }
     }
+        }
+        var numberGiven = prompt("How many trees do you want?");
+        treesMade(parseInt(numberGiven));
     </script>
   </body>
 </html>

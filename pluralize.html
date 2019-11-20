@@ -6,12 +6,12 @@
   </head>
   <body>
     <script >
-    function factorial(n){
-    //the user will enable the fucntion from a prompt
-return n;
-  }
-    var userstring = prompt("Number please");
-    console.log(userstring + " ! is " + factorial(n));
+    var word = prompt("Give me a word: ");
+    console.log(pluralize(word));
+    document.write(pluralize(word));
+    function pluralize(word){
+    return word + "s";
+        }
     </script>
   </body>
 </html>
